@@ -4,17 +4,20 @@
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
 
-            // Pedimos al usuario que ingrese los dos números
+            // Pedimos al usuario que ingrese los tres números
             System.out.print("Ingrese el primer número: ");
             double numero1 = scanner.nextDouble();
 
             System.out.print("Ingrese el segundo número: ");
             double numero2 = scanner.nextDouble();
 
+            System.out.print("Ingrese el tercer número: ");
+            double numero3 = scanner.nextDouble();
+
             // Realizamos las operaciones
-            double suma = numero1 + numero2;
-            double resta = numero1 - numero2;
-            double multiplicacion = numero1 * numero2;
+            double suma = numero1 + numero2 + numero3;
+            double resta = numero1 - numero2 - numero3;
+            double multiplicacion = numero1 * numero2 * numero 3;
             double division = numero1 / numero2;
 
             // Mostramos los resultados
